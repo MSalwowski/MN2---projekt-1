@@ -1,0 +1,8 @@
+uwaga co do wyboru wariantu:
+Skrypt wizualizacja.m moze wyswietlic zarowno macierz wypelniona liczbami iteracji, jak i miejscami zerowymi do ktorych zbiezna jest metoda Halleya dla danego punktu startowego. W celu zmiany z liczby iteracji (wariant A)) na miejsce zerowe (wariant B)) nalezy:
+	1. Ustawic jako parametr wyjsciowy funkcji halley.m "x1" zamiast "l",
+	2. W pliku wizualizacja.m zakomentowac wariant wyswietlania A) i odkomentowac B).
+uwaga: wariant B) dziala tylko dla wielomianow posiadajacych miejsca zerowe rzeczywiste, czyli np dla wariantu wielomianu a).
+
+cc: 	Maciej Salwowski
+	maciej.salwowski@wp.pl
